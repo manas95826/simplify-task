@@ -20,7 +20,7 @@ loader = WebBaseLoader(
 docs = loader.load()
 
 # Loading the mixtral model from groq client
-llm = ChatGroq(temperature=0, model_name="mixtral-8x7b-32768", api_key='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')
+llm = ChatGroq(temperature=0, model_name="mixtral-8x7b-32768", api_key='gsk_ntOqjghFfAEabmSRltBrW')
 
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
